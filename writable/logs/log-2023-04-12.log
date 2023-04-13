@@ -1,0 +1,552 @@
+CRITICAL - 2023-04-12 14:58:30 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 15:21:19 --> Undefined variable $title
+in APPPATH\Views\kelas\home.php on line 7.
+ 1 APPPATH\Views\kelas\home.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\kelas\\home.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/home', [], true)
+ 5 APPPATH\Controllers\DataInput.php(11): view('kelas/home')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 16:13:30 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\DataInput.php on line 28.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DataInput.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DataInput')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DataInput')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DataInput', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 16:30:33 --> Undefined array key "nrp"
+in APPPATH\Controllers\DataInput.php on line 26.
+ 1 APPPATH\Controllers\DataInput.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nrp"', 'APPPATH\\Controllers\\DataInput.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->validasi()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 16:31:27 --> Undefined array key "nrp"
+in APPPATH\Controllers\DataInput.php on line 26.
+ 1 APPPATH\Controllers\DataInput.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nrp"', 'APPPATH\\Controllers\\DataInput.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->validasi()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 16:31:28 --> Undefined array key "nrp"
+in APPPATH\Controllers\DataInput.php on line 26.
+ 1 APPPATH\Controllers\DataInput.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nrp"', 'APPPATH\\Controllers\\DataInput.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->validasi()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 16:32:29 --> Undefined array key "nrp"
+in APPPATH\Controllers\DataInput.php on line 26.
+ 1 APPPATH\Controllers\DataInput.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nrp"', 'APPPATH\\Controllers\\DataInput.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->validasi()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 16:33:29 --> Undefined array key "nrp"
+in APPPATH\Controllers\DataInput.php on line 26.
+ 1 APPPATH\Controllers\DataInput.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nrp"', 'APPPATH\\Controllers\\DataInput.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->validasi()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 16:40:45 --> Undefined property: stdClass::$NRP
+in APPPATH\Views\kelas\index.php on line 77.
+ 1 APPPATH\Views\kelas\index.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$NRP', 'APPPATH\\Views\\kelas\\index.php', 77)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/index', [], true)
+ 5 APPPATH\Controllers\DataInput.php(22): view('kelas/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 16:44:15 --> Undefined variable $kelas
+in APPPATH\Views\kelas\index.php on line 78.
+ 1 APPPATH\Views\kelas\index.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelas', 'APPPATH\\Views\\kelas\\index.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/index', [], true)
+ 5 APPPATH\Controllers\DataInput.php(22): view('kelas/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 16:44:30 --> Undefined variable $kelas
+in APPPATH\Views\kelas\index.php on line 78.
+ 1 APPPATH\Views\kelas\index.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelas', 'APPPATH\\Views\\kelas\\index.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\kelas\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/index', [], true)
+ 5 APPPATH\Controllers\DataInput.php(22): view('kelas/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-12 16:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-12 16:59:08 --> Call to undefined function form_close()
+in APPPATH\Views\kelas\tambah.php on line 108.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/tambah', [], true)
+ 4 APPPATH\Controllers\DataInput.php(27): view('kelas/tambah', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->tambah()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 16:59:36 --> Undefined array key "nrp"
+in APPPATH\Controllers\DataInput.php on line 31.
+ 1 APPPATH\Controllers\DataInput.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nrp"', 'APPPATH\\Controllers\\DataInput.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->validasi()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 17:00:24 --> Undefined array key "nrp"
+in APPPATH\Controllers\DataInput.php on line 31.
+ 1 APPPATH\Controllers\DataInput.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nrp"', 'APPPATH\\Controllers\\DataInput.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->validasi()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-12 17:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-12 17:01:32 --> Call to undefined function form_close()
+in APPPATH\Views\kelas\tambah.php on line 108.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/tambah', [], true)
+ 4 APPPATH\Controllers\DataInput.php(31): view('kelas/tambah', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->tambah()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-12 17:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-12 17:03:13 --> Call to undefined function form_close()
+in APPPATH\Views\kelas\tambah.php on line 108.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/tambah', [], true)
+ 4 APPPATH\Controllers\DataInput.php(31): view('kelas/tambah', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->tambah()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-12 17:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-12 17:05:05 --> Call to undefined function form_close()
+in APPPATH\Views\kelas\tambah.php on line 108.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/tambah', [], true)
+ 4 APPPATH\Controllers\DataInput.php(31): view('kelas/tambah', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->tambah()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 17:06:04 --> Undefined array key "nrp"
+in APPPATH\Controllers\DataInput.php on line 35.
+ 1 APPPATH\Controllers\DataInput.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nrp"', 'APPPATH\\Controllers\\DataInput.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->validasi()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-12 17:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-12 17:08:36 --> Call to undefined function form_close()
+in APPPATH\Views\kelas\tambah.php on line 108.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('kelas/tambah', [], true)
+ 4 APPPATH\Controllers\DataInput.php(31): view('kelas/tambah', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->tambah()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-12 17:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 17:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 18:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 18:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-12 18:07:35 --> mysqli_sql_exception: Table 'prtraining.kelas' doesn't exist in C:\xampp\htdocs\prtraining\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\prtraining\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\prtraining\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\prtraining\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\prtraining\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\prtraining\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\prtraining\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('c14220026', 'nrp', Array, NULL, 'nrp')
+#6 C:\xampp\htdocs\prtraining\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('nrp', 'nrp', 'c14220026', Array, Array)
+#7 C:\xampp\htdocs\prtraining\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\prtraining\app\Controllers\DataInput.php(54): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\prtraining\system\CodeIgniter.php(934): App\Controllers\DataInput->tambah()
+#10 C:\xampp\htdocs\prtraining\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+#11 C:\xampp\htdocs\prtraining\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\prtraining\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-12 18:07:35 --> Table 'prtraining.kelas' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `kelas`
+WHERE `nrp` = :nrp:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('c14220026', 'nrp', [...], null, 'nrp')
+ 4 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('nrp', 'nrp', 'c14220026', [...], [...])
+ 5 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\DataInput.php(54): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->tambah()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-12 18:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-12 18:07:50 --> mysqli_sql_exception: Table 'prtraining.kelas' doesn't exist in C:\xampp\htdocs\prtraining\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\prtraining\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\prtraining\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\prtraining\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\prtraining\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\prtraining\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\prtraining\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('c14220026', 'nrp', Array, NULL, 'nrp')
+#6 C:\xampp\htdocs\prtraining\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('nrp', 'nrp', 'c14220026', Array, Array)
+#7 C:\xampp\htdocs\prtraining\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\prtraining\app\Controllers\DataInput.php(54): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\prtraining\system\CodeIgniter.php(934): App\Controllers\DataInput->tambah()
+#10 C:\xampp\htdocs\prtraining\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+#11 C:\xampp\htdocs\prtraining\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\prtraining\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-12 18:07:50 --> Table 'prtraining.kelas' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `kelas`
+WHERE `nrp` = :nrp:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('c14220026', 'nrp', [...], null, 'nrp')
+ 4 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('nrp', 'nrp', 'c14220026', [...], [...])
+ 5 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\DataInput.php(54): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->tambah()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-12 18:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 18:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 18:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 18:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 18:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 18:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 18:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 18:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 18:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 18:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 18:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 18:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 18:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 18:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 19:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-12 19:12:40 --> mysqli_sql_exception: Table 'prtraining.kelas' doesn't exist in C:\xampp\htdocs\prtraining\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\prtraining\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\prtraining\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\prtraining\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\prtraining\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\prtraining\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\prtraining\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('c14220026', 'nrp', Array, NULL, 'nrp')
+#6 C:\xampp\htdocs\prtraining\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('nrp', 'nrp', 'c14220026', Array, Array)
+#7 C:\xampp\htdocs\prtraining\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\prtraining\app\Controllers\DataInput.php(54): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\prtraining\system\CodeIgniter.php(934): App\Controllers\DataInput->tambah()
+#10 C:\xampp\htdocs\prtraining\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+#11 C:\xampp\htdocs\prtraining\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\prtraining\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-12 19:12:40 --> Table 'prtraining.kelas' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `kelas`
+WHERE `nrp` = :nrp:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('c14220026', 'nrp', [...], null, 'nrp')
+ 4 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('nrp', 'nrp', 'c14220026', [...], [...])
+ 5 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\DataInput.php(54): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->tambah()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-12 19:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 19:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-04-12 19:16:47 --> mysqli_sql_exception: Table 'prtraining.kelas' doesn't exist in C:\xampp\htdocs\prtraining\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\prtraining\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\prtraining\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\prtraining\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\prtraining\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\prtraining\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\prtraining\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('c14220026', 'nrp', Array, NULL, 'nrp')
+#6 C:\xampp\htdocs\prtraining\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('nrp', 'nrp', 'c14220026', Array, Array)
+#7 C:\xampp\htdocs\prtraining\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\prtraining\app\Controllers\DataInput.php(54): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\prtraining\system\CodeIgniter.php(934): App\Controllers\DataInput->tambah()
+#10 C:\xampp\htdocs\prtraining\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+#11 C:\xampp\htdocs\prtraining\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\prtraining\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-12 19:16:47 --> Table 'prtraining.kelas' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `kelas`
+WHERE `nrp` = :nrp:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('c14220026', 'nrp', [...], null, 'nrp')
+ 4 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('nrp', 'nrp', 'c14220026', [...], [...])
+ 5 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\DataInput.php(54): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->tambah()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-12 19:31:48 --> mysqli_sql_exception: Table 'prtraining.kelas' doesn't exist in C:\xampp\htdocs\prtraining\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\prtraining\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\prtraining\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\prtraining\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\prtraining\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\prtraining\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\prtraining\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('c14220026', 'nrp', Array, NULL, 'nrp')
+#6 C:\xampp\htdocs\prtraining\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('nrp', 'nrp', 'c14220026', Array, Array)
+#7 C:\xampp\htdocs\prtraining\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\prtraining\app\Controllers\DataInput.php(54): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\prtraining\system\CodeIgniter.php(934): App\Controllers\DataInput->tambah()
+#10 C:\xampp\htdocs\prtraining\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+#11 C:\xampp\htdocs\prtraining\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\prtraining\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-04-12 19:31:48 --> Table 'prtraining.kelas' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `kelas`
+WHERE `nrp` = :nrp:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('c14220026', 'nrp', [...], null, 'nrp')
+ 4 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('nrp', 'nrp', 'c14220026', [...], [...])
+ 5 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\DataInput.php(54): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->tambah()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-12 19:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 19:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 19:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 19:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 19:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 19:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 19:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 19:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-12 19:41:17 --> Call to undefined method App\Models\DataInputModel::validasi_data
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\DataInput.php(88): CodeIgniter\Model->__call('validasi_data', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->validasi()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-12 20:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 20:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 20:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 20:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 20:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 20:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 20:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 20:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-12 20:16:28 --> Undefined array key "nrp"
+in APPPATH\Controllers\DataInput.php on line 96.
+ 1 APPPATH\Controllers\DataInput.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nrp"', 'APPPATH\\Controllers\\DataInput.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->validasi()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 20:17:47 --> Undefined array key "nrp"
+in APPPATH\Controllers\DataInput.php on line 16.
+ 1 APPPATH\Controllers\DataInput.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nrp"', 'APPPATH\\Controllers\\DataInput.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-12 20:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-12 20:17:53 --> Undefined array key "nrp"
+in APPPATH\Controllers\DataInput.php on line 16.
+ 1 APPPATH\Controllers\DataInput.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nrp"', 'APPPATH\\Controllers\\DataInput.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 20:18:22 --> Undefined array key "nrp"
+in APPPATH\Controllers\DataInput.php on line 16.
+ 1 APPPATH\Controllers\DataInput.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nrp"', 'APPPATH\\Controllers\\DataInput.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-12 20:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-12 20:18:26 --> Undefined array key "nrp"
+in APPPATH\Controllers\DataInput.php on line 16.
+ 1 APPPATH\Controllers\DataInput.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nrp"', 'APPPATH\\Controllers\\DataInput.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-12 20:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 20:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-12 20:18:32 --> Undefined array key "nrp"
+in APPPATH\Controllers\DataInput.php on line 16.
+ 1 APPPATH\Controllers\DataInput.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nrp"', 'APPPATH\\Controllers\\DataInput.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 20:19:01 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\DataInput.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DataInput.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DataInput')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DataInput')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DataInput', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 20:19:02 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\DataInput.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DataInput.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DataInput')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DataInput')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DataInput', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 20:19:04 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\DataInput.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DataInput.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DataInput')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DataInput')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DataInput', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 20:19:09 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\DataInput.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\DataInput.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DataInput')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DataInput')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\DataInput', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-12 20:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-04-12 20:24:08 --> Call to undefined method App\Models\DataInputModel::validasi_data
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\DataInput.php(88): CodeIgniter\Model->__call('validasi_data', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->validasi()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 20:27:18 --> CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, array given, called in C:\xampp\htdocs\prtraining\app\Config\Routes.php on line 36
+in SYSTEMPATH\Router\RouteCollection.php on line 915.
+ 1 APPPATH\Config\Routes.php(36): CodeIgniter\Router\RouteCollection->get([...], '/kelas', 'DataInput::login')
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 20:27:20 --> CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, array given, called in C:\xampp\htdocs\prtraining\app\Config\Routes.php on line 36
+in SYSTEMPATH\Router\RouteCollection.php on line 915.
+ 1 APPPATH\Config\Routes.php(36): CodeIgniter\Router\RouteCollection->get([...], '/kelas', 'DataInput::login')
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 20:27:37 --> CodeIgniter\Router\RouteCollection::get(): Argument #1 ($from) must be of type string, array given, called in C:\xampp\htdocs\prtraining\app\Config\Routes.php on line 36
+in SYSTEMPATH\Router\RouteCollection.php on line 915.
+ 1 APPPATH\Config\Routes.php(36): CodeIgniter\Router\RouteCollection->get([...], '/kelas', 'DataInput::login')
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-12 20:27:53 --> Undefined array key "nrp"
+in APPPATH\Controllers\DataInput.php on line 86.
+ 1 APPPATH\Controllers\DataInput.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nrp"', 'APPPATH\\Controllers\\DataInput.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataInput->validasi()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataInput))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-12 20:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 20:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 20:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 20:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 20:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 20:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 20:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 20:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 20:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 20:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 20:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 20:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 20:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 20:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 20:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 20:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-12 20:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
